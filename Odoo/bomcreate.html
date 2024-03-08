@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Create BOM</title>
+    <link rel="stylesheet" href="bom.css">
+</head>
+<body>
+    <nav id="nav">
+        <a href="./bomcreate.html"><h1>Create BOM</h1></a>
+        <a href="./searchbom.html"><h1>Search BOM</h1></a>
+    </nav>
+
+    <div id="container">
+        <form id="myForm">
+            <table id="myTable"  border="0"  >
+                <tr>
+                    <td>Part</td>
+                    <td>Bore</td>
+                    <td>Stroke</td>
+                    <td>Quantity</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><input type="text" ></td>
+                    <td><input type="text" ></td>
+                    <td><input type="text" ></td>
+                    <td><input type="text" ></td>
+                    <td><button type="button" onclick="deleteRow(this)">Delete</button></td>                </tr>
+            </table>
+            <button type="button" class="bt" onclick="addRow()">Add</button>
+            <button type="button" class="bt">Save</button>
+            
+            
+        </form>
+    </div>
+    </div>
+
+<script src="./script.js"></script>
+</body>
+</html>
